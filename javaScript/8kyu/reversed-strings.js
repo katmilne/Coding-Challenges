@@ -14,7 +14,7 @@ function solution(str){
     return splitString.reverse().join("");
   }
 
-  //--------other noteworthy solutions----------
+//--------other noteworthy solutions----------
 
 const solution1 = str => str.split('').reverse().join('');
 
