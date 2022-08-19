@@ -1,1 +1,1 @@
-# Coding-Challenges
+# Code Wars: Coding-Challenges
