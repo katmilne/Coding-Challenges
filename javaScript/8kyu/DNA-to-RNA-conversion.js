@@ -24,7 +24,13 @@ and/or 'T'.
 
 //-----------------My solution-------------------
 
-
+function DNAtoRNA(dna) {
+    let rna = dna.replace(/T/g, "U");
+    return rna
+  }  
 
 //--------other noteworthy solutions----------
 
+function DNAtoRNA(dna) {
+    return dna.split("T").join("U");
+  } 
