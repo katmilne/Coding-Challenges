@@ -14,6 +14,8 @@ function even_or_odd(number) {
 
 //--------other noteworthy solutions----------
 
-
+function even_or_odd(number) {
+    return number % 2 ? "Odd" : "Even" // 0 is a truthy value
+  }
 
 
